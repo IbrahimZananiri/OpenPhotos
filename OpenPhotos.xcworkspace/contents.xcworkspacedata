@@ -8,6 +8,6 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:README.md">
+      location = "group:../OpenPhotos-iOSCopy0/README.md">
    </FileRef>
 </Workspace>

@@ -13,7 +13,6 @@
 		0F81D9C81926BCA1000CA2A3 /* ZAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F81D9C71926BCA1000CA2A3 /* ZAConfig.m */; };
 		0F81D9CB1926BFD2000CA2A3 /* ZAAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F81D9CA1926BFD2000CA2A3 /* ZAAPIManager.m */; };
 		0F81D9CE1926D3C7000CA2A3 /* ZALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F81D9CD1926D3C7000CA2A3 /* ZALoginViewController.m */; };
-		0F85651219279B52008D288F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F85651119279B52008D288F /* README.md */; };
 		0F93B037192634540022665A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F93B036192634540022665A /* Foundation.framework */; };
 		0F93B039192634540022665A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F93B038192634540022665A /* CoreGraphics.framework */; };
 		0F93B03B192634540022665A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F93B03A192634540022665A /* UIKit.framework */; };
@@ -324,7 +323,6 @@
 			files = (
 				0F1EFBF5192672D800C16AC2 /* Localizable.strings in Resources */,
 				0FC1A4F419267318003074AB /* Main_iPad.storyboard in Resources */,
-				0F85651219279B52008D288F /* README.md in Resources */,
 				0F93B052192634540022665A /* Images.xcassets in Resources */,
 				0F93B04A192634540022665A /* Main_iPhone.storyboard in Resources */,
 			);
