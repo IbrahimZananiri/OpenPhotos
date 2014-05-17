@@ -1,7 +1,7 @@
 OpenPhotos
 ==========
 
-An iOS 7 app experiment with Photos, Camera, API, and Facebook Login, and more.
+An iOS 7 app experiment with Photos, Camera, Custom REST API, Facebook Login, and more.
 
 
 ### Installing Dependencies
@@ -11,6 +11,9 @@ An iOS 7 app experiment with Photos, Camera, API, and Facebook Login, and more.
 
 Have problems installing CocoaPods? Contact me for another branch that doesn't require CocoaPods.
 
+### Configuration
+
+Config.h contains configurable values, such as REST API endpoint, API Client ID, and Facebook App ID.
 
 ### Special Thanks
 
