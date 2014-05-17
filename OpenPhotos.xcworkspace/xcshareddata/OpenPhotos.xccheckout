@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B5A7F7D-91D9-495D-B9AD-095C3728ABC3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenPhotos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>383502A4-FE94-49FD-A19B-381B1B67E9AF</key>
+		<string>ssh://github.com/IbrahimZananiri/OpenPhotos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenPhotos.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C32225E-96B3-4F31-94C3-18BBFFCDEA5A</key>
+		<string>../OpenPhotos</string>
+		<key>383502A4-FE94-49FD-A19B-381B1B67E9AF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/IbrahimZananiri/OpenPhotos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>383502A4-FE94-49FD-A19B-381B1B67E9AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C32225E-96B3-4F31-94C3-18BBFFCDEA5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenPhotos</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>383502A4-FE94-49FD-A19B-381B1B67E9AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenPhotos-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
