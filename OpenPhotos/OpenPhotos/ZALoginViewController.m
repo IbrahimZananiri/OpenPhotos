@@ -29,10 +29,11 @@
 
 - (IBAction) loginWithFacebookTapped:(id)sender
 {
-    [self.loginButton setTitle:NSLocalizedString(@"Logging in...", nil) forState:UIControlStateNormal];
+    [self setLoginOperationActive:YES];
     ACAccountStore *accountStore = [[ACAccountStore alloc] init];
     ACAccountType *fbAccountType = [accountStore
                                     accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
+    
     [accountStore requestAccessToAccountsWithType:fbAccountType
                                           options:@{
                                                     ACFacebookAppIdKey: kFbAppId,
@@ -47,15 +48,19 @@
                                                 UINavigationController *photosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Photos"];
                                                [self presentViewController:photosViewController animated:YES completion:nil];
                                            } else {
-                                               NSLog(@"%@", error);
-                                               UIAlertView *alert = [[UIAlertView alloc]
-                                                                     initWithTitle:NSLocalizedString(@"Facebook Login", nil)
-                                                                     message:NSLocalizedString(@"Please grant OpenPhotos access to Facebook", nil)
-                                                                     delegate:nil
-                                                                     cancelButtonTitle:@"OK"
-                                                                     otherButtonTitles:nil];
-                                               [alert show];
+                                               dispatch_async(dispatch_get_main_queue(), ^{
+                                                   NSLog(@"%@", error);
+                                                   NSString *message = error.code == 6 ? @"Please add a Facebook account in device Settings." : @"Please grant OpenPhotos access to Facebook";
+                                                   UIAlertView *alert = [[UIAlertView alloc]
+                                                                         initWithTitle:NSLocalizedString(@"Facebook Login", nil)
+                                                                         message:NSLocalizedString(message, nil)
+                                                                         delegate:nil
+                                                                         cancelButtonTitle:@"OK"
+                                                                         otherButtonTitles:nil];
+                                                   [alert show];
+                                               });
                                            }
+                                           [self setLoginOperationActive:NO];
                                        }];
     
 }
