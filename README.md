@@ -2,6 +2,7 @@ OpenPhotos
 ==========
 
 An iOS 7 app experiment with Photos, Camera, Custom REST API, Facebook Login, and more.
+Powered by the OpenPhotos-API Server https://github.com/IbrahimZananiri/OpenPhotos-API
 
 
 ### Installing Dependencies
